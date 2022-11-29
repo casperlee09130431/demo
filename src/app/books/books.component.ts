@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./books.component.css']
 })
 export class BooksComponent {
-
+  bookname :string = 'Book A';
+  author:string='張三';
 }
